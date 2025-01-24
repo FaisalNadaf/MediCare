@@ -1,5 +1,13 @@
 /** @format */
 
+import HeroSection from "./pages/hero/Page";
+import Section01 from "./pages/section-1/Page";
+
 export default function Home() {
-	return <>Faisal</>;
+	return (
+		<>
+			<HeroSection />
+			<Section01 />
+		</>
+	);
 }
