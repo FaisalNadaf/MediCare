@@ -4,11 +4,12 @@ import React from "react";
 import healthKitIcon from "../../../assets/images/first-aid-kit.png";
 import HospitelIcon from "../../../assets/images/hospital.png";
 import mapIcon from "../../../assets/images/map.png";
+import ima from "../../../assets/images/image-1.png";
 import Image from "next/image";
 
 const Section01 = () => {
 	return (
-		<div className="h-screen w-full border-2 border-red-500 flex items-center justify-center">
+		<div className="h-screen w-full  flex items-center justify-center">
 			<div className="w-1/2 h-full flex items-center justify-center">
 				<div className="w-[80%] ">
 					{" "}
@@ -21,7 +22,7 @@ const Section01 = () => {
 						paragraph is also for those who are looking out for a reliable
 						dental clinic.
 					</div>
-					<div className="flex items-center justify-around mb-2">
+					<div className="flex items-start justify-around mb-2">
 						<Image
 							alt="IMAGE NOT FOUND"
 							width={30}
@@ -38,7 +39,7 @@ const Section01 = () => {
 							</div>
 						</div>
 					</div>
-					<div className="flex items-center justify-around mb-2">
+					<div className="flex items-start justify-around mb-2">
 						<Image
 							alt="IMAGE NOT FOUND"
 							width={30}
@@ -57,7 +58,7 @@ const Section01 = () => {
 						</div>
 					</div>
 					<div>
-						<button>
+						<button className="flex items-center justify-around bg-blue-500 text-white px-4 py-2 rounded-md">
 							{" "}
 							<Image
 								alt="IMAGE NOT FOUND"
@@ -69,7 +70,12 @@ const Section01 = () => {
 					</div>
 				</div>
 			</div>
-			<div className="w-1/2 h-full">right</div>
+			<div className="w-1/2 h-full">
+				<Image
+					src={ima}
+					className="h-[70%] w=[70%]"
+				/>
+			</div>
 		</div>
 	);
 };
