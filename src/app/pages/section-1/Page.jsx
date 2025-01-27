@@ -22,11 +22,12 @@ const Section01 = () => {
 						paragraph is also for those who are looking out for a reliable
 						dental clinic.
 					</div>
-					<div className="flex items-start justify-around mb-2">
+					<div className="flex items-center justify-center mb-2">
 						<Image
 							alt="IMAGE NOT FOUND"
-							width={30}
+							width={50}
 							src={healthKitIcon}
+							className="mx-8"
 						/>
 						<div className="w-[70%]">
 							<div className="text-lg font-semibold mb-2">
@@ -39,10 +40,11 @@ const Section01 = () => {
 							</div>
 						</div>
 					</div>
-					<div className="flex items-start justify-around mb-2">
+					<div className="flex items-center justify-center mb-2">
 						<Image
 							alt="IMAGE NOT FOUND"
-							width={30}
+							className="mx-8"
+							width={50}
 							src={HospitelIcon}
 						/>
 						<div className="w-[70%]">
@@ -58,7 +60,7 @@ const Section01 = () => {
 						</div>
 					</div>
 					<div>
-						<button className="flex items-center justify-around bg-blue-500 text-white px-4 py-2 rounded-md">
+						<button className="flex items-center justify-around bg-blue-500 text-white px-4 py-2 rounded-md mt-10 hover:bg-blue-600">
 							{" "}
 							<Image
 								alt="IMAGE NOT FOUND"
@@ -70,10 +72,11 @@ const Section01 = () => {
 					</div>
 				</div>
 			</div>
-			<div className="w-1/2 h-full">
+			<div className="flex items-center justify-center w-1/2 h-full">
 				<Image
 					src={ima}
-					className="h-[70%] w=[70%]"
+					className="w-[80%]"
+					alt="IMAGE NOT FOUND"
 				/>
 			</div>
 		</div>

@@ -35,7 +35,8 @@ const HeroSection = () => {
 						height={50}
 					/>
 					<span className="ml-2 text-white font-bold text-xl">
-						Dental Clinic
+						
+						Azhari Clinic
 					</span>
 				</div>
 
