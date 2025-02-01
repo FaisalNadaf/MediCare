@@ -5,10 +5,9 @@ import React from "react";
 import call from "../../../assets/images/man.png";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
-const Section02 = () => {
+const Page = () => {
 	return (
-		<div className="h-[500px] w-[80%] my-8 bg-blue-500 absolute  text-white flex items-center justify-center ">
-			{/* <div className="bg-blue-500 h-[300px] w-[80%] relative top-0"/> */}
+		<div className="h-[500px] w-[80%] my-8 bg-blue-500   text-white flex items-center justify-center ">
 			<div className="w-[45%]">
 				<div className="text-5xl mb-2 font-bold ">New Patient</div>
 				<div className="my-2">
@@ -30,7 +29,7 @@ const Section02 = () => {
 			</div>
 			<div className="w-[45%] h-[65%] bg-white  relative left-40 flex items-center justify-center">
 				{" "}
-				<div className="w-[80%] h-[70%] flex flex-col gap-6">
+				<div className="w-[80%] h-[70%] flex flex-col gap-">
 					<Input
 						type="text"
 						placeholder="Your Name"
@@ -50,4 +49,4 @@ const Section02 = () => {
 	);
 };
 
-export default Section02;
+export default Page;

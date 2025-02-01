@@ -9,7 +9,7 @@ import Image from "next/image";
 
 const Section01 = () => {
 	return (
-		<div className="h-screen w-full  flex items-center justify-center">
+		<div className="h-full mt-10 w-full  flex items-center justify-center">
 			<div className="w-1/2 h-full flex items-center justify-center">
 				<div className="w-[80%] ">
 					{" "}

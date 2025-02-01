@@ -3,6 +3,7 @@
 import HeroSection from "./pages/hero/Page";
 import Section01 from "./pages/section-1/Page";
 import Section02 from "./pages/section-2/Page";
+import Section03 from "./pages/section-3/page";
 
 export default function Home() {
 	return (
@@ -10,6 +11,7 @@ export default function Home() {
 			<HeroSection />
 			<Section01 />
 			<Section02 />
+			<Section03 />
 		</>
 	);
 }
