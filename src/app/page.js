@@ -6,6 +6,7 @@ import Section02 from "./pages/section-2/Page";
 import Section03 from "./pages/section-3/page";
 import Section4 from "./pages/section-4/page";
 import Section5 from "./pages/section-5/page";
+import Section6 from "./pages/section-6/page";
 
 export default function Home() {
 	return (
@@ -16,6 +17,8 @@ export default function Home() {
 			<Section03 />
 			<Section4 />
 			<Section5 />
+			<Section6 />
+
 		</>
 	);
 }

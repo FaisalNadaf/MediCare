@@ -1,16 +1,16 @@
 /** @format */
 
-import React from "react";
-import img1 from "../../..//assets/images/service-1.jpg";
-import call from "../../..//assets/images/man.png";
+	import React from "react";
+	import img1 from "../../../assets/images/service-1.jpg";
+import call from "../../../assets/images/man.png";
 
 import Image from "next/image";
 
 const Section5 = () => {
 	return (
-		<div className="h-screen w-full flex items-center justify-center">
+		<div className="h-screen w-full flex items-center justify-center ">
 			<div className="w-[80%] h-full flex flex-wrap">
-				<div className="w-1/2 h-[260px]">
+				<div className=" w-1/2 h-[260px]">
 					<div className="text-5xl font-semibold w-4/5 mb-8">
 						Dentistry for Today’s Lifestyle
 					</div>
@@ -19,14 +19,15 @@ const Section5 = () => {
 					</div>
 				</div>
 				<div
-					className="w-1/4 h-[260px] flex items-center justify-center text-white bg-black opacity-60"
+					className="relative w-1/4 h-[260px] flex items-center justify-center text-white bg-black "
 					style={{
-						backgroundImage: `url(${img1})`,
+						backgroundImage: `url(${img1.src})`,
 						backgroundSize: "cover",
 						backgroundPosition: "center",
 						backgroundRepeat: "no-repeat",
 					}}>
-					<div className=" w-2/3 h-3/5">
+					<div className="absolute h-full w-full bg-black opacity-60 z-10"></div>
+					<div className=" w-2/3 h-3/5 text-white z-20">
 						{" "}
 						<div className="text-xl font-bold mb-2">01.</div>
 						<div className="text-xl font-bold mb-2">Dental X-Rays​</div>
@@ -37,14 +38,15 @@ const Section5 = () => {
 					</div>
 				</div>{" "}
 				<div
-					className="w-1/4 h-[260px] flex items-center justify-center text-white bg-black opacity-60"
+					className="relative w-1/4 h-[260px] flex items-center justify-center text-white bg-black "
 					style={{
-						backgroundImage: `url(${img1})`,
+						backgroundImage: `url(${img1.src})`,
 						backgroundSize: "cover",
 						backgroundPosition: "center",
 						backgroundRepeat: "no-repeat",
 					}}>
-					<div className=" w-2/3 h-3/5">
+					<div className="absolute h-full w-full bg-black opacity-60 z-10"></div>
+					<div className=" w-2/3 h-3/5 text-white z-20">
 						{" "}
 						<div className="text-xl font-bold mb-2">01.</div>
 						<div className="text-xl font-bold mb-2">Dental X-Rays​</div>
@@ -55,14 +57,15 @@ const Section5 = () => {
 					</div>
 				</div>{" "}
 				<div
-					className="w-1/4 h-[260px] flex items-center justify-center text-white bg-black opacity-60"
+					className="relative w-1/4 h-[260px] flex items-center justify-center text-white bg-black "
 					style={{
-						backgroundImage: `url(${img1})`,
+						backgroundImage: `url(${img1.src})`,
 						backgroundSize: "cover",
 						backgroundPosition: "center",
 						backgroundRepeat: "no-repeat",
 					}}>
-					<div className=" w-2/3 h-3/5">
+					<div className="absolute h-full w-full bg-black opacity-60 z-10"></div>
+					<div className=" w-2/3 h-3/5 text-white z-20">
 						{" "}
 						<div className="text-xl font-bold mb-2">01.</div>
 						<div className="text-xl font-bold mb-2">Dental X-Rays​</div>
@@ -73,14 +76,15 @@ const Section5 = () => {
 					</div>
 				</div>{" "}
 				<div
-					className="w-1/4 h-[260px] flex items-center justify-center text-white bg-black opacity-60"
+					className="relative w-1/4 h-[260px] flex items-center justify-center text-white bg-black "
 					style={{
-						backgroundImage: `url(${img1})`,
+						backgroundImage: `url(${img1.src})`,
 						backgroundSize: "cover",
 						backgroundPosition: "center",
 						backgroundRepeat: "no-repeat",
 					}}>
-					<div className=" w-2/3 h-3/5">
+					<div className="absolute h-full w-full bg-black opacity-60 z-10"></div>
+					<div className=" w-2/3 h-3/5 text-white z-20">
 						{" "}
 						<div className="text-xl font-bold mb-2">01.</div>
 						<div className="text-xl font-bold mb-2">Dental X-Rays​</div>
@@ -91,14 +95,15 @@ const Section5 = () => {
 					</div>
 				</div>{" "}
 				<div
-					className="w-1/4 h-[260px] flex items-center justify-center text-white bg-black opacity-60"
+					className="relative w-1/4 h-[260px] flex items-center justify-center text-white bg-black "
 					style={{
-						backgroundImage: `url(${img1})`,
+						backgroundImage: `url(${img1.src})`,
 						backgroundSize: "cover",
 						backgroundPosition: "center",
 						backgroundRepeat: "no-repeat",
 					}}>
-					<div className=" w-2/3 h-3/5">
+					<div className="absolute h-full w-full bg-black opacity-60 z-10"></div>
+					<div className=" w-2/3 h-3/5 text-white z-20">
 						{" "}
 						<div className="text-xl font-bold mb-2">01.</div>
 						<div className="text-xl font-bold mb-2">Dental X-Rays​</div>
@@ -109,14 +114,15 @@ const Section5 = () => {
 					</div>
 				</div>{" "}
 				<div
-					className="w-1/4 h-[260px] flex items-center justify-center text-white bg-black opacity-60"
+					className="relative w-1/4 h-[260px] flex items-center justify-center text-white bg-black "
 					style={{
-						backgroundImage: `url(${img1})`,
+						backgroundImage: `url(${img1.src})`,
 						backgroundSize: "cover",
 						backgroundPosition: "center",
 						backgroundRepeat: "no-repeat",
 					}}>
-					<div className=" w-2/3 h-3/5">
+					<div className="absolute h-full w-full bg-black opacity-60 z-10"></div>
+					<div className=" w-2/3 h-3/5 text-white z-20">
 						{" "}
 						<div className="text-xl font-bold mb-2">01.</div>
 						<div className="text-xl font-bold mb-2">Dental X-Rays​</div>
@@ -127,14 +133,15 @@ const Section5 = () => {
 					</div>
 				</div>{" "}
 				<div
-					className="w-1/4 h-[260px] flex items-center justify-center text-white bg-black opacity-60"
+					className="relative w-1/4 h-[260px] flex items-center justify-center text-white bg-black "
 					style={{
-						backgroundImage: `url(${img1})`,
+						backgroundImage: `url(${img1.src})`,
 						backgroundSize: "cover",
 						backgroundPosition: "center",
 						backgroundRepeat: "no-repeat",
 					}}>
-					<div className=" w-2/3 h-3/5">
+					<div className="absolute h-full w-full bg-black opacity-60 z-10"></div>
+					<div className=" w-2/3 h-3/5 text-white z-20">
 						{" "}
 						<div className="text-xl font-bold mb-2">01.</div>
 						<div className="text-xl font-bold mb-2">Dental X-Rays​</div>
@@ -145,14 +152,15 @@ const Section5 = () => {
 					</div>
 				</div>{" "}
 				<div
-					className="w-1/4 h-[260px] flex items-center justify-center text-white bg-black opacity-60"
+					className="relative w-1/4 h-[260px] flex items-center justify-center text-white bg-black "
 					style={{
-						backgroundImage: `url(${img1})`,
+						backgroundImage: `url(${img1.src})`,
 						backgroundSize: "cover",
 						backgroundPosition: "center",
 						backgroundRepeat: "no-repeat",
 					}}>
-					<div className=" w-2/3 h-3/5">
+					<div className="absolute h-full w-full bg-black opacity-60 z-10"></div>
+					<div className=" w-2/3 h-3/5 text-white z-20">
 						{" "}
 						<div className="text-xl font-bold mb-2">01.</div>
 						<div className="text-xl font-bold mb-2">Dental X-Rays​</div>
@@ -169,12 +177,12 @@ const Section5 = () => {
 								src={call}
 								height={30}
 							/>
-							<span className="text-white m-2 font-semibold">
+							<span className="text-white text-2xl m-2 font-semibold">
 								FOR INSURANCE
 							</span>
 						</div>
 						<div>
-							<span className="text-white m-2 font-semibold">
+							<span className="text-white text-3xl m-2 font-semibold">
 								+91 1234567890
 							</span>
 						</div>
